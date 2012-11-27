@@ -1,12 +1,18 @@
 <html>
-<head>
-<title>Accueil Diatoo</title>
-</head>
-<body style='background-color:'>
-	<CENTER><h1 style='font-size:60px'>Bienvenue sur le site de Diatoo</h1></CENTER>
-	<MARQUEE BEHAVIOR="alternate" DIRECTION="up"
-   BGCOLOR="white" WIDTH="100%" HEIGHT=200>
-<CENTER><h1 style='color:red'>Le site est en contruction</h1></CENTER>
-</MARQUEE>
-</body>
+	<head>
+		<link type="text/css" rel="stylesheet" href="./css/main.css"/>
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src='./js/main.js'></script>
+		<title>
+			Acueil
+		</title>
+	</head>
+	<body id='bodyIndex' class='CSS_body'>
+		<div id='web_content' class='CSS_web_content'>
+			<?php include ('./template/entete.tpl.php'); ?>
+			<div id='contenu' class='CSS_contenu'></div>
+			<div 'pageDePage' class='CSS_pageDePage'></div>
+			
+		</div>
+	</body>
 </html>
