@@ -18,11 +18,11 @@
 			<div id='contenu' class='CSS_contenu'>
 				<div id="videoDiv"> 
 				</div>
-				<div style='position:absolute; left: 500px'>
-					<div onclick="loadVideo('3ST1swCmJWc')" style='float:left'>
+				<div style='display:inline-block'>
+					<div onclick="loadVideo('3ST1swCmJWc')" style='float:left; margin:2px 0 0 1px'>
 						<img src="http://img.youtube.com/vi/3ST1swCmJWc/0.jpg" width="180" alt="" />
 					</div>
-					<div onclick="loadVideo('kkrxZyHkkXc')" style='float:left'>
+					<div onclick="loadVideo('kkrxZyHkkXc')" style='float:left; margin:2px 0 0 1px'>
 						<img src="http://img.youtube.com/vi/kkrxZyHkkXc/0.jpg" width="180" alt="" />
 					</div>
 				</div>
